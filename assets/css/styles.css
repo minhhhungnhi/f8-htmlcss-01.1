@@ -167,10 +167,24 @@ a {
 }
 
 .clients .images {
-    margin-top: 96px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.clients .images a {
+    padding: 0 42px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 54px 55px,
+        rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.1) 0px 4px 6px,
+        rgba(0, 0, 0, 0.15) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* ============ Guide ============= */
