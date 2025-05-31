@@ -63,16 +63,6 @@ a {
     z-index: 1;
 }
 
-.hero-wrap {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: calc(100vh - 90px);
-    background-color: #e6f0ff;
-}
-
 .navbar {
     display: flex;
     align-items: center;
@@ -112,6 +102,16 @@ a {
 }
 
 /* --------- Hero ----------- */
+.hero-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 90px);
+    background-color: #e6f0ff;
+}
+
 .hero-wrap .info {
     width: 51%;
 }
